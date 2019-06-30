@@ -1,0 +1,2 @@
+# Census-Income-Classifier
+This is a classifier which takes Census Data and builds a logistic regression model to predict whether a particular individual makes above or below $50,000 a year. The script features data manipulation to deal with NaN values and to group overly granular features. It then features hyper-parameter tuning to determine the optimal type of regulization and the regularization constant before testing the best model on the set of test data (yielded 85% classification accuracy!!!!!!!)
